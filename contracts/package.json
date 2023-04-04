@@ -17,7 +17,6 @@
     "@typechain/ethers-v5": "^10.2.0",
     "@typechain/hardhat": "^6.1.5",
     "chai": "^4.3.7",
-    "ethers": "^6.2.3",
     "hardhat": "^2.13.0",
     "hardhat-gas-reporter": "^1.0.9",
     "solidity-coverage": "^0.8.2",
@@ -26,6 +25,7 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.2",
     "@openzeppelin/contracts-upgradeable": "^4.8.2",
-    "@openzeppelin/hardhat-upgrades": "^1.22.1"
+    "@openzeppelin/hardhat-upgrades": "^1.22.1",
+    "ethers": "5.4.0"
   }
 }
