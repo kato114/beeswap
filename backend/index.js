@@ -1,12 +1,12 @@
-const express = require("express");
+var express = require("express");
+var app = express();
 
-const app = express();
-const PORT = 3000;
+var swap = require("./app/swap.js");
+var history = require("./app/history.js");
+var config = require("./app/config.js");
 
-app.listen(PORT, (error) => {
-  if (!error)
-    console.log(
-      "Server is Successfully Running, and App is listening on port " + PORT
-    );
-  else console.log("Error occurred, server can't start", error);
-});
+app.use("/swap", swap);
+app.use("/conf", config);
+app.use("/history", history);
+
+app.listen(3000);

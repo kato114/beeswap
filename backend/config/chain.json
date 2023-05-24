@@ -1,0 +1,20 @@
+{
+  "97": {
+    "chainId": "97",
+    "name": "BSC Testnet",
+    "rpcUrl": "https://data-seed-prebsc-1-s3.binance.org:8545/",
+    "scanUrl": "https://testnet.bscscan.com/",
+    "wssUrl": "",
+    "blockPeriod": "3000",
+    "routerAddress": "0xd8dB8626EBcfCad0633037E579B58667DeF6d098"
+  },
+  "97": {
+    "chainId": "7364",
+    "name": "DND Testnet",
+    "rpcUrl": "https://rpctest.dynochain.io/",
+    "scanUrl": "https://testnet.dynoscan.io/",
+    "wssUrl": "",
+    "blockPeriod": "3000",
+    "routerAddress": "0x8BD3CE58362074bf1aF429D4eb9398c17d614597"
+  }
+}

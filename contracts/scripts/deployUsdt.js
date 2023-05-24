@@ -1,7 +1,7 @@
 const { ethers, upgrades } = require("hardhat");
 
 async function main() {
-  const Usdt = await ethers.getContractFactory("Usdt");
+  const Usdt = await ethers.getContractFactory("BEP20USDT");
   const usdt = await Usdt.deploy();
 
   await usdt.deployed();
